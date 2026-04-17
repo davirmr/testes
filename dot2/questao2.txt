@@ -1,0 +1,15 @@
+Questão 2: Implementação de Chatbot com IA Generativa (Langchain, Langsmith, LLMs)
+Você precisa desenvolver um chatbot que utilize um modelo de linguagem (LLM) como o
+GPT-4 da OpenAI para responder perguntas dos usuários sobre programação em Python. O
+chatbot deve:
+1. Receber perguntas dos usuários via input de texto.
+2. Utilizar o Langchain para gerenciar o fluxo de conversação e integrar com o LLM.
+3. Responder às perguntas utilizando o modelo da OpenAI.
+Implemente um exemplo simples onde o usuário possa perguntar algo como "Como criar
+uma lista em Python?" e o chatbotresponda com uma explicação detalhada.
+Dicas:
+● Utilize o Langchain para facilitar a integração e gerenciamento das respostas do
+LLM.
+● Certifique-se de configurar corretamente a API da OpenAI.
+● Forneça exemplos de perguntas e respostas para demonstrar o funcionamento do
+chatbot.
