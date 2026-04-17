@@ -1,0 +1,15 @@
+# Documentação #
+
+## Carregamento & Limpeza: ##
+### O script lê os dois JSONs, remove espaços acidentais nas chaves (como "text ") e extrai apenas o conteúdo textual. ###
+
+## Embeddings:  ##
+### O modelo paraphrase-multilingual-MiniLM-L12-v2 (baseado em transformers) converte cada notícia em um vetor numérico que captura seu significado semântico. ###
+
+## Vector Store (FAISS): ##
+### Os vetores são normalizados e inseridos no IndexFlatIP. ###
+### Com vetores normalizados, o produto interno calculado pelo FAISS equivale à Similaridade do Cosseno, ideal para busca semântica. ###
+
+## Busca: ##
+### Ao receber uma consulta, o mesmo modelo a transforma em vetor, normaliza e usa o FAISS para encontrar os top_k vizinhos mais próximos. ###
+### Retorna os textos originais com um score de 0 a 1. ###
