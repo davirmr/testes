@@ -1,0 +1,14 @@
+Questão 1: Desenvolvimento de API com Django/Flask/FastAPI
+Desenvolva uma API simples que permite aos usuários cadastrar e consultarlivros em uma
+biblioteca virtual. A API deve incluir as seguintes funcionalidades:
+1. Cadastro de livros com os campos: título, autor, data de publicação e resumo.
+2. Consulta de livros portítulo ou autor.
+3. Implemente a API utilizando um dos frameworks: Django, Flask ou FastAPI.
+Certifique-se de:
+● Criar endpoints claros e bem documentados.
+● Utilizar um banco de dados SQLite para armazenamento.
+● Implementartestes unitários para os endpoints criados.
+Dicas:
+● Para Django, considere utilizar o Django Rest Framework (DRF).
+● Para Flask, considere utilizar Flask-RESTful.
+● Para FastAPI, utilize os recursos nativos do framework para criação de APIs.
