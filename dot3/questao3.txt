@@ -1,0 +1,14 @@
+Questão 3: Trabalhando com Vector Stores e Embeddings
+Você deve criar um sistema de busca semântica de documentos utilizando embeddings e
+vector stores. Para isso, siga as etapas abaixo:
+1. Utilize um conjunto de documentos de texto (pode ser um conjunto de artigos ou
+posts de um blog).
+2. Gere embeddings para esses documentos utilizando um modelo de embeddings.
+3. Armazene esses embeddings em uma vector store como FAISS ou Milvus.
+4. Implemente uma função de busca que, dado um texto de consulta,retorne os
+documentos mais relevantes com base na similaridade semântica.
+Dicas:
+● Utilize bibliotecas como transformers para gerar embeddings.
+● Documente o processo de criação dos embeddings e armazenamento na vector
+store.
+● Demonstre a busca semântica com exemplos de consultas e resultados relevantes.
