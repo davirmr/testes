@@ -1,0 +1,49 @@
+Pergunta: O que é um dicionário em Python? Exemplo?
+Resposta: Um dicionário em Python é uma estrutura de dados não ordenada que armazena pares de chave‑valor, permitindo acesso rápido ao valor a partir da chave. Ele é criado usando chaves `{}` ou a função `dict()`.
+
+**Exemplo**
+
+```python
+# dicionário literal
+pessoa = {
+    "nome": "Ana",
+    "idade": 30,
+    "cidade": "São Paulo"
+}
+
+print(pessoa["nome"])  # Ana
+```
+
+Pergunta: Como criar uma lista em Python?
+Resposta: Crie um objeto `list`:
+
+```python
+# Vazio
+lista = []
+
+# Inicializada com elementos
+lista = [1, 2, 3, 'a', 'b']
+```
+
+Ou com a função construtora:
+
+```python
+lista = list((1, 2, 3))      # de tupla
+lista = list('abc')          # de string
+```
+Pergunta: Como fazer um loop em Python?
+Resposta: Um loop em Python pode ser feito com **`for`** ou **`while`**.
+
+```python
+# for
+for i in range(5):          # 0 a 4
+    print(i)
+
+# while
+j = 0
+while j < 5:
+    print(j)
+    j += 1
+```
+
+`for` itera sobre uma sequência (lista, range, etc.). `while` continua enquanto a condição for verdadeira.
